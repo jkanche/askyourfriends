@@ -1,0 +1,6 @@
+
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:textSize="16sp" android:text="Enter your friend's username" android:layout_alignParentLeft="true" android:layout_width="fill_parent"></TextView>
+        <EditText android:layout_height="wrap_content" android:textSize="14.5sp" android:layout_below="@+id/textView1" android:text="" android:layout_alignLeft="@+id/textView1" android:layout_alignRight="@+id/textView1" android:layout_width="fill_parent" android:id="@+id/fuser"></EditText>
+        <Button android:layout_height="wrap_content" android:layout_below="@+id/fuser" android:text="Add" android:layout_alignRight="@+id/fuser" android:layout_width="wrap_content" android:id="@+id/fbut"></Button>
+    </RelativeLayout>

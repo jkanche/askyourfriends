@@ -1,0 +1,27 @@
+
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@+id/textView1" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:textSize="16sp" android:text="Post a Question" android:layout_width="fill_parent"></TextView>
+        <TableLayout android:layout_below="@+id/textView1" android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_alignLeft="@+id/textView1" android:layout_alignRight="@+id/textView1" android:layout_width="fill_parent">
+            <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow1">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+                    <TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:textSize="16sp" android:layout_width="wrap_content" android:text="Group Name :"></TextView>
+                    <TextView android:id="@+id/grp_name" android:layout_height="wrap_content" android:textSize="16sp" android:layout_width="wrap_content" android:text=""></TextView>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow2">
+                <LinearLayout android:id="@+id/linearLayout3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/textView4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="16sp" android:text="Friends in Group :"></TextView>
+                    <TextView android:id="@+id/friend_name_list" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="16sp" android:text=""></TextView>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow3">
+                <TextView android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="16sp" android:text="Type Your Question"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <EditText android:layout_alignParentLeft="true" android:textSize="14.5sp" android:text="" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/grp_quest_body"></EditText>
+                    <Button android:layout_below="@+id/grp_quest_body" android:layout_width="wrap_content" android:text="Submit" android:layout_height="wrap_content" android:layout_alignRight="@+id/grp_quest_body" android:id="@+id/submit"></Button>
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>

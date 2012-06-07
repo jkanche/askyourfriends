@@ -1,0 +1,6 @@
+
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@+id/textView1" android:layout_alignParentTop="true" android:text="Name the Group" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+        <EditText android:layout_below="@+id/textView1" android:text="" android:textSize="14.5sp" android:layout_height="wrap_content" android:layout_alignLeft="@+id/textView1" android:layout_alignRight="@+id/textView1" android:layout_width="fill_parent" android:id="@+id/name_grp"></EditText>
+        <Button android:layout_height="wrap_content" android:text="Create" android:layout_width="wrap_content" android:layout_below="@+id/name_grp" android:layout_alignRight="@+id/name_grp" android:id="@+id/create_grp"></Button>
+    </RelativeLayout>

@@ -1,0 +1,30 @@
+
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@+id/textView1" android:textSize="16sp" android:text="Question :" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+        <TextView android:text="" android:layout_below="@+id/textView1" android:layout_height="wrap_content" android:layout_alignRight="@+id/textView1" android:id="@+id/q_body" android:layout_width="fill_parent"></TextView>
+        <TableLayout android:layout_below="@+id/q_body" android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_alignLeft="@+id/q_body" android:layout_alignRight="@+id/q_body" android:layout_width="fill_parent">
+            <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow1" android:layout_width="wrap_content">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+                    <TextView android:id="@+id/textView2" android:textSize="16sp" android:text="From:" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                    <TextView android:id="@+id/q_from" android:textSize="16sp" android:text="" android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow2" android:layout_width="wrap_content">
+                <LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                </LinearLayout>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tableRow3">
+                <TextView android:textSize="16sp" android:text="Answers:" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tableRow4">
+                <ListView android:layout_width="fill_parent" android:id="@+id/answer_list" android:layout_height="280dip" android:isScrollContainer="true" android:scrollbars="vertical"></ListView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <EditText android:text="" android:textSize="14.5sp" android:layout_above="@+id/new_post_ans" android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/new_ans"></EditText>
+                    <Button android:text="Submit" android:layout_width="wrap_content"  android:layout_height="wrap_content" android:layout_alignRight="@+id/new_ans" android:id="@+id/new_post_ans" android:layout_alignParentBottom="true"></Button>
+                    <Button android:text="Share" android:layout_toLeftOf="@+id/new_post_ans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/new_post_ans" android:layout_alignBottom="@+id/new_post_ans" android:id="@+id/share"></Button>
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>

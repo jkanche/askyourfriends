@@ -1,0 +1,36 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent">
+        <RelativeLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="fill_parent">
+            <TextView android:textSize="20sp" android:text="                        Settings" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/logout" android:text="Logout" android:layout_alignParentRight="true"></Button>
+        </RelativeLayout>
+        <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="fill_parent">
+            <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tableRow1">
+                <TextView android:textSize="16sp" android:text="Username" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                <TextView android:layout_height="wrap_content" android:id="@+id/sett_user" android:layout_width="wrap_content"></TextView>
+            </TableRow>
+            <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow2" android:layout_width="fill_parent">
+                <TextView android:textSize="16sp" android:text="Password            " android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                <EditText android:password="true" android:layout_height="wrap_content" android:textSize="14.5sp" android:layout_width="200dp" android:id="@+id/sett_pass"></EditText>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16sp" android:text="Name" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                <EditText android:layout_height="wrap_content" android:textSize="14.5sp" android:layout_width="fill_parent" android:id="@+id/sett_name"></EditText>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:text="Receive SMS" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                <CheckBox android:text="yes" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/sett_sms"></CheckBox>
+            </TableRow>
+			<TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:layout_width="wrap_content" android:id="@+id/update" android:layout_height="wrap_content" android:text="Update"></Button>
+            </TableRow>
+        </TableLayout>
+                <RelativeLayout android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+            <Button android:layout_height="wrap_content" android:id="@+id/ask" android:text="   Ask   "  android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_marginRight="5dip"></Button>
+            <Button android:layout_height="wrap_content" android:id="@+id/groups" android:text=" Friends  " android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/ask" android:layout_marginRight="5dip"></Button>
+            <Button android:layout_height="wrap_content" android:id="@+id/history" android:text=" History" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/groups" android:layout_marginRight="5dip"></Button>
+            <Button android:layout_height="wrap_content" android:id="@+id/settings" android:text=" Settings" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/history"></Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+	

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+    <RelativeLayout android:id="@+id/login_lay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:textSize="16sp" android:text="Username" android:layout_width="fill_parent"></TextView>
+        <EditText android:text="" android:textSize="14.5sp" android:layout_below="@+id/textView1" android:layout_height="wrap_content" android:layout_alignLeft="@+id/textView1" android:layout_alignRight="@+id/textView1" android:layout_width="fill_parent" android:id="@+id/username"></EditText>
+        <TextView android:id="@+id/textView2" android:layout_below="@+id/username" android:layout_height="wrap_content" android:textSize="16sp" android:text="Password" android:layout_alignLeft="@+id/username" android:layout_alignRight="@+id/username" android:layout_width="fill_parent"></TextView>
+        <EditText android:password="true" android:textSize="14.5sp" android:layout_below="@+id/textView2" android:layout_height="wrap_content" android:layout_alignLeft="@+id/textView2" android:layout_alignRight="@+id/textView2" android:layout_width="fill_parent" android:id="@+id/password"></EditText>
+        <Button android:layout_below="@+id/password" android:layout_height="wrap_content" android:text="login" android:layout_alignRight="@+id/password" android:layout_width="wrap_content" android:id="@+id/login"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New User" android:layout_toLeftOf="@+id/login" android:layout_alignTop="@+id/login" android:layout_alignBottom="@+id/login" android:id="@+id/createuser"></Button>
+    </RelativeLayout>
+    
+

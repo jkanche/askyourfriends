@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:orientation="vertical">
+        <RelativeLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:text="             Recent Questions"  android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+            <Button android:layout_height="wrap_content" android:id="@+id/logout" android:text="Logout" android:layout_width="wrap_content" android:layout_alignParentRight="true"></Button>
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout5">
+            <TextView android:id="@+id/textView2" android:text="" android:textSize="14.5sp" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:layout_height="370dip">
+            <ListView android:id="@+id/quest_list" android:layout_width="fill_parent" android:isScrollContainer="true" android:scrollbars="vertical" android:layout_height="330dip"></ListView>
+        </LinearLayout>
+        
+        <RelativeLayout android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_height="50dip" android:baselineAligned="true" android:layout_below="@+id/linearLayout3" >
+            <Button android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/ask" android:layout_gravity="bottom" android:text="    Ask   " android:layout_alignParentBottom="true" android:layout_marginRight="5dip"></Button>
+            <Button android:layout_height="fill_parent" android:id="@+id/groups" android:layout_width="wrap_content" android:text="  Friends " android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/ask" android:layout_marginRight="5dip"></Button>
+            <Button android:layout_height="fill_parent" android:id="@+id/history" android:layout_width="wrap_content" android:text="  History " android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/groups" android:layout_marginRight="5dip"></Button>
+            <Button android:layout_height="fill_parent" android:id="@+id/settings" android:layout_width="wrap_content" android:text=" Settings" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/history"></Button>
+        </RelativeLayout>
+    </LinearLayout>

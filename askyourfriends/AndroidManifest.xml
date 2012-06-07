@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="info.buzzfriends.friends"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="5" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".askyourfriends"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".NewUserActivity"></activity>
+		<activity android:name=".QueList"></activity>
+		<activity android:name=".QueListSelect"></activity>
+		<activity android:name=".GroupQue"></activity>
+		<activity android:name=".GroupAsk"></activity>
+		<activity android:name=".MyList"></activity>
+		<activity android:name=".InteractiveArrayAdapter"></activity>
+		<activity android:name=".MyList_name"></activity>
+		<activity android:name=".Addfrd"></activity>
+		<activity android:name=".SettingsUser"></activity>
+		<activity android:name=".ShareFriend"></activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
