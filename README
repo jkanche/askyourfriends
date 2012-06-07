@@ -1,2 +1,8 @@
 Ask your friends is a Q and A based android application that lets you to post questions to your friends and your friends can reply them back. 
 When you post a question, your friends can also suggest the question to others in their network to answer.
+
+TODO :
+1. work on the UI part
+2. connectivity using facebook/ importing friend lists
+3. sending an email when a question is posted/when the user does not have the app installed
+
